@@ -86,8 +86,8 @@ export class ExamplePlatformAccessory2 {
       motionSensorOneService.updateCharacteristic(this.platform.Characteristic.MotionDetected, motionDetected);
       motionSensorTwoService.updateCharacteristic(this.platform.Characteristic.MotionDetected, !motionDetected);
 
-      this.platform.log.debug('Triggering motionSensorOneService222:', motionDetected);
-      this.platform.log.debug('Triggering motionSensorTwoService222:', !motionDetected);
+      this.platform.log.debug('Triggering motionSensorOneService3333:', motionDetected);
+      this.platform.log.debug('Triggering motionSensorTwoService33333333333:', !motionDetected);
     }, 10000);
   }
 
